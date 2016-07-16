@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Go_Extension.Shea Rogers.0dd4d9ab-ab47-4c0c-9ff7-41e27621cccd" Version="1.0" Language="en-US" Publisher="Shea Rogers" />
-    <DisplayName>Go_Extension</DisplayName>
-    <Description>Empty VSIX Project.</Description>
+    <Identity Id="Go_Extension.Shea Rogers.0dd4d9ab-ab47-4c0c-9ff7-41e27621cccd" Version="0.1" Language="en-US" Publisher="Shea Rogers" />
+    <DisplayName>Golang Language Support</DisplayName>
+    <Description xml:space="preserve">A Google Golang extension with support for Visual Studio 2015 and above.</Description>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
@@ -11,4 +11,7 @@
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
   </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+  </Assets>
 </PackageManifest>

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Go_Extension")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Go Language Support")]
+[assembly: AssemblyDescription("A Google Go extension for Visual Studio 2015")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Shea Rogers")]
 [assembly: AssemblyProduct("Go_Extension")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCopyright("2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
